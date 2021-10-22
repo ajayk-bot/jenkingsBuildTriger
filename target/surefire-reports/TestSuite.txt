@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.308 s <<< FAILURE! - in TestSuite
+verify.TestCase001.verifytitle  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: expected [Google] but found [Google1]
+	at verify.TestCase001.verifytitle(TestCase001.java:20)
+
+verify.TestCase002.clcikOnSearch  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: expected [alphabet - Google Search] but found [tetsingfalied]
+	at verify.TestCase002.clcikOnSearch(TestCase002.java:20)
+
