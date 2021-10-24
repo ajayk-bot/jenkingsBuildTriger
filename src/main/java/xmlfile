@@ -77,10 +77,10 @@
 							<goal>copy-resources</goal>
 						</goals>
 						<configuration>
-							<outputDirectory>${basedir}/FaliedTestNgTestCases</outputDirectory>
+							<outputDirectory>${basedir}/target/failed-testng.xml</outputDirectory>
 							<resources>
 								<resource>
-									<directory>target/surefire-reports/</directory>
+									<directory>src/</directory>
 									<filtering>true</filtering>
 								</resource>
 							</resources>

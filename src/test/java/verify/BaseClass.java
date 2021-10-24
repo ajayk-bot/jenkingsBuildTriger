@@ -24,4 +24,15 @@ public class BaseClass {
 		driver.quit();
 	}
 
+	
+	//write a script that will copies the failed-testNg.xml
+	
+	public void getTheFailedXML() {
+		
+	}
+	
+	
+	
+	
+	
 }
